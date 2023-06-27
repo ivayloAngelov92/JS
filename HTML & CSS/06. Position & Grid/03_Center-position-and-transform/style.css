@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(238, 238, 238);
+    height: 945px;
+}
+
+.card{
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    width: 500px;
+    height: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+}
+
+.text{
+    position: absolute;
+    top: 60%;
+    padding: 35px;
+}
+button{
+    background-color: rgb(0, 153, 0);
+    height: 35px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    top: 88%;
+    left:75%;
+}
+a{
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+}
+
+h3{
+    font-family: Georgia, serif;
+    font-size: 1em;
+    line-height: 1.2;
+}
+img{
+    position: absolute;
+    border-radius: 5px 5px 0 0;
+}
+
+
+
+/* 
+• Section tag must have class="card"
+• Create section with two divs
+o First div contains image
+o Second div contains: <h3>, <p> and a tags
+• Use rgb(238, 238, 238) for body background
+• Use rgb(255, 255, 255) for card background
+• Use rgb(0, 153, 0) for card button background
+• Use font Georgia, serif with size 1em/1.2 for the headings
+• Set the image position property to absolute
+*/

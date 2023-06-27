@@ -1,0 +1,28 @@
+body{
+    background-color:  rgb(238, 238, 238);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 945px;
+}
+section{
+    display: flex;
+    width: 90%;
+    gap: 10px
+}
+img{
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: auto;
+    width: 125px;
+    object-fit: cover;
+    transition: width 0.4s ease-in-out;
+}
+img:hover{
+    width: 30em;
+}
+img:nth-child(2){
+    flex-grow: 1;
+    border-left: 10px black solid;
+    border-right: 10px black solid;
+}

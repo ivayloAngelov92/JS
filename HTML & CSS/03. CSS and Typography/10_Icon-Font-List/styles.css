@@ -1,0 +1,44 @@
+@import url("https://use.fontawesome.com/releases/v5.10.2/css/all.css");
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+}
+i{
+    font-size: 25px; 
+}
+ul{
+    list-style-type: none;
+}
+ul.check i{
+    color: #2fcc71;
+}
+ul.star i{
+    color: coral;
+}
+ul.contact i{
+    color: #3498da;
+}
+
+
+/* • <body>:
+o Font: Verdana, Geneva, Tahoma
+o Generic Font: sans-serif
+o Height of the line: 1.5
+o Font size: 18px
+© SoftUni – about.softuni.bg. Copyrighted document. Unauthorized copy, reproduction or use is not permitted.
+ 
+Follow us: Page 11 of 12
+• <ul>:
+o Set the list style type to none
+• The icons in the <ul class="check"> (you can select them like that: ul.check i)
+o Color: #2fcc71
+o Font size: 25px
+• The icons in the <ul class="star"> (you can select them like that: ul.star i)
+o Color: coral
+o Font size: 25px
+• The icons in the <ul class="contact"> (you can select them like that: ul.contact i)
+o Color: #3498da
+o Font size: 25px
+• Use FontAwesome for this task. Import it in your CSS, with the @import rule */

@@ -1,0 +1,25 @@
+@import url(reset.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif);
+
+
+html{
+    font-family: "PT Sans";
+}
+body, input, textarea{
+    font: inherit;
+}
+:root{
+    --clr-nav-footer:#D01919;
+    --clr-coaches-background:#EFEFEF;
+
+}
+.top-bar{
+    display: flex;
+    justify-content: space-between;
+    background-color:var(--clr-nav-footer) ;
+    color:rgba(255, 255, 255, 0.8) ;
+    padding: 0.5em 1em;
+}
+
+

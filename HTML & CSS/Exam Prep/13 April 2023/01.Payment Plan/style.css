@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css");
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-family: "Inter";
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+    font-family: "Inter";
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+main {
+    position: absolute;
+    width: 88%;
+    height: auto;
+    margin: 30px auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+
+    gap: 20px;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+section {
+    flex: 1 1 29%;
+    background-color: white;
+    padding: 20px 30px;
+    line-height: 2em;
+    font-size: 14px;
+}
+
+h2 {
+    font-size: 1.7em;
+    text-transform: uppercase;
+    padding-bottom: 2em;
+    padding-top: 1em;
+}
+
+.price {
+    font-size: 4em;
+    font-weight: 800;
+}
+
+.monthly {
+    font-size: 22px;
+}
+
+p {
+    padding: 20px 0;
+    font-weight: 250;
+    margin-top: 2em;
+}
+
+button {
+    font-size: 24px;
+    padding: 20px 40px;
+    margin-top: 3em;
+    margin-bottom: 15px;
+    background-color: black;
+    border: none;
+    color:
+        rgba(162, 169, 178, 1);
+    border-radius: 5px;
+}
+
+li {
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+i {
+    margin-right: 10px;
+}
+
+.premium h2 {
+    padding-top: 0;
+}

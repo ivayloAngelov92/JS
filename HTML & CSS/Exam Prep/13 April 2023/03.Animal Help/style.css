@@ -1,0 +1,193 @@
+@import url(reset.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css);
+
+
+html {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 2rem;
+    background-color: white;
+    font-size: 24px;
+    font-weight: 700;
+    
+}
+
+div.animal-help {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8%;
+
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    margin-right: 2%;
+    width: 31%;
+    max-width: 31%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.home{
+    display: flex;
+    background-color: rgba(133, 220, 255, 1);
+    height: 500px;
+    justify-content: space-between;
+}
+.home img{
+    display: flex;
+    margin-right: 7%;
+
+}
+
+.container-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 100px;
+    padding: 0px 40px;
+}
+.container-left h1{
+    font-size: 2em;
+}
+.container-left p{
+    margin: 1em 0;
+    font-weight: 600;
+}
+.buttons{
+    margin-top: 1rem;
+    
+}
+.join, .donate{
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 1rem 3.5rem;
+    border-radius: 1rem;
+}
+.donate{
+    background-color: white;  
+    margin-right: 2rem;
+}
+.join{
+    background-color: black;
+    color: white;
+}
+
+.info{
+    height: auto;
+    margin: 30px auto;
+}
+.info h2{
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.info-header {
+    text-align: center;
+}
+.info-header p{
+    font-size: 21px;
+    margin: 40px 25%;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.container-info{
+    display: flex;
+    flex: 1 1 30%;
+    padding: 5px 20px;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 20px;
+    padding: 10px 20px;
+}
+
+.icons i{
+    font-size: 10rem;
+    color:rgba(133, 220, 255, 1) ;
+    margin: 20px 0;
+}
+.icons h2{
+    font-size: 24px;
+    font-weight: bold;
+}
+.icons p{
+    padding: 5px 20px;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+section.mission{
+    height: auto;
+    max-height: 600px;
+
+    text-align: center;
+    background-color:rgba(133, 220, 255, 1) ;
+    justify-content: center;
+}
+
+section.mission h2{
+    text-align: center;
+    font-size: 36px;
+}
+.mission li{
+    text-align: start;
+    justify-content: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-left: 5px;
+}
+section.mission ul {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-areas:
+        "first four"
+        "second five"
+        "third six";
+    justify-content: center;
+    padding: 40px 0px;
+    gap: 20px;
+    
+}
+
+
+.first{
+    grid-area: first;
+}
+.second{
+    grid-area: second;
+}
+.third{
+    grid-area: third;
+}
+.four{
+    grid-area: four;
+}
+.five{
+    grid-area: five;
+}
+.six{grid-area: six;}

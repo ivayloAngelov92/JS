@@ -1,0 +1,50 @@
+@media  screen and (width<=600px){
+    body{
+        width: 100%; 
+        /* width: 100vh;   */
+        /* Optional depends how you look at it */
+    }
+    /* .home-navbar-container{position: relative; } */
+    /* 'Optional if you dont want sticky menu */
+    .home-image1{
+        width: 100%;
+        order: 1;
+    }
+    .home-hero-text-container{
+        width: 100%;
+        order: 2;
+        margin-left: 0;
+    }
+    .home-hero{
+        flex-direction: column;
+    }
+
+    .home-features{
+        height: auto;
+    }
+    .home-heading-container{
+        width: 100%;
+    }
+    .home-cards-container{
+        flex-direction: column;
+    }
+    .home-cta-btn2{
+        align-self: center;
+        padding-left:16px ;
+        padding-right: 16px;
+    }
+    .home-cards-container div{
+        width: 100%;
+    }
+    .home-cards-container div img{
+        width: 80%;
+        height: 300px;
+    }
+    .home-stats{
+        display: flex;
+        flex-direction: column;
+    }
+    #features{
+        padding-bottom: 70px
+    }
+}

@@ -1,0 +1,155 @@
+@import url(reset.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css);
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root{
+    --clr-bg:rgba(239, 239, 239, 1);
+    --clr-icons:rgba(144, 144, 144, 1);
+    --clr-header: rgba(34, 34, 34, 1);
+    --clr-header2: rgba(193, 193, 193, 1);
+}
+
+body{
+    font-family: 'Raleway',sans-serif;
+    color: var(--clr-header);
+}
+
+.page-section{
+    max-width: 1880px;
+    margin: 1.5rem auto;
+    background-color: var(--clr-bg);
+    height: calc(33vh-24px);
+    padding: 3rem 5rem;
+    overflow:hidden;
+}
+.section-flexed{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+   
+}
+.section-flexed .section-info{
+    flex:0 0 50%
+}
+.section-flexedn .section-image{
+    flex: 0 1 45%
+}
+.section-flexed .title{
+    font-size: 3rem;
+    font-weight: normal;
+    margin-bottom: 2.5rem;
+}
+.section-flexed .desc{
+    font-style: italic;
+    margin-bottom: 2.5rem;
+}
+
+#hero.section-flexed{
+    position: relative;
+}
+
+.navigation{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+#hero .hero-img{
+    position: absolute;
+    width: 50%;
+    bottom: 0px;
+    right: 5rem;
+}
+
+.section-flexed .divider-vertical{
+    height: 3rem;
+    width: 1px;
+    background-color: var(--clr-header);
+}
+
+
+#camera .socials{
+    display: flex;
+    align-items: center;
+    gap:2rem
+}
+
+#camera .socials li{
+    width: 3rem;
+    height: 3rem;
+    background-color: var(--clr-icons);
+    color: var(--clr-bg);
+    position: relative;
+}
+
+#camera i{
+    font-size: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* section 3 */
+#gallery{
+    display: flex;
+    align-items: center;
+}
+
+#gallery .list{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:1rem
+}
+/* #gallery li{
+    transform: scale(1);
+    transition: transform 300ms ease-in-out;
+} */
+
+#gallery li:nth-child(2){
+    transform: scale(1.5);
+}
+/* Form */
+
+form{
+    max-width: 50%;
+    margin: 3rem auto 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1.25rem;
+    grid-template-areas: 
+    "email subject"
+    "msg msg"
+    "submit submit";
+
+}
+.email{
+    grid-area: email;
+}
+.subject{
+    grid-area: subject;
+}
+.btn{
+    grid-area: submit;
+}
+.msg{
+    grid-area: msg;
+}
+
+form input, textarea{
+    background-color: transparent;
+    border: 1px solid var(--clr-header2);
+    padding: 0.25rem;
+    width: 100%;
+}
+textarea{
+    resize: none;
+}
+button{
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    border: 1px solid var(--clr-header);
+    background-color: var(--clr-header);
+    color: white;
+}

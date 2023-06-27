@@ -1,0 +1,38 @@
+@media screen and (width<=600px) {
+    .navigation-nav,
+    span.home-text,
+    div.home-image-container{
+        display: none;
+    }
+    div.home-tab-selector-cards-container{
+        display: flex;
+        flex-direction: column;
+    }
+    div.home-about.section-container,
+    div.home-process.section-container,
+    div.section-container{
+        padding-top: 32px;
+        padding-bottom: 32px;
+        font-size: 14px;
+        line-height: 1.2;
+    }
+    span.home-text10{
+        margin-right:30px ;
+    }
+    div.home-top-part{
+        display: block;
+    }
+    div.home-links-container{
+        flex-direction: column;
+        gap:20px
+    }
+    .navigation-max-width{
+        padding: 12px 12px;
+    }
+    .home-text-container{
+        margin-bottom: 10px;
+    }
+    button.button-primary.button{
+        padding: 1.3rem 1.8rem;
+    }
+}

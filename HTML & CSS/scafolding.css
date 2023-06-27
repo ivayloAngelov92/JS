@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font: normal 14px/1.5 verdana, arial, sans-serif;
+}
+
+body, table, form{
+    font: inherit
+}
+
+p{
+    padding-bottom: 1.5em;
+}
+
+h1, h2,h3, h4, h5, h6{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    line-height: 1.1;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+}
+

@@ -1,0 +1,65 @@
+@import url(reset.css);
+
+body{
+    font-family: Helvetica;
+}
+
+.container{
+    
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2em;
+    margin: 2% 10%;
+    background-color: rgba(246, 248, 249, 1);
+    border-radius: 6px;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1em;
+    flex-wrap: wrap;
+
+}
+.content{
+    flex: 1 1 45%;
+    padding-left: 5%;
+    padding-right: 15%;
+}
+h3{
+    font-size: 16px;
+    font-weight: 300;
+}
+h2{
+    font-size: 3rem;
+    margin-top: 1rem;
+    font-weight: 400;
+}
+p{
+    line-height: 2;
+    letter-spacing: 2px;
+    padding-top: 15px;
+    font-size: 19px;
+    color: rgba(136, 143, 151, 1);
+}
+
+button{
+    padding: 10px 20px;
+    margin: 20px 10px 5px 0;
+    font-size: 20px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+.buttons :first-child{
+    background-color:rgba(117, 115, 246, 1) ;
+    color: rgba(240, 239, 254, 1);
+    border: none;
+}
+.buttons :nth-child(2){
+    font-weight: bold;
+    background-color: white;
+    border: 1px solid black;
+}

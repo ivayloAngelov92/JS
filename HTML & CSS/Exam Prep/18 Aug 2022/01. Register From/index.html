@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Register Form</title>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <div class="content">
+                <h1>Registration Form</h1>
+                <form action="/submit">
+                    <div class="flex">
+                        <label for="fname" class="fname">First Name</label>
+                        <label for="lname" class="lname">Last Name</label>
+                    </div>
+                    <div class="flex">
+                        <input type="text" name="fname" id="firstName">
+                        <input type="text" name="lname" id="lastName">
+                    </div>
+                    
+                    <label for="email" class="email">Email</label>
+                    <input type="email" name="email" id="email-input">
+                    <label for="pass" class="pass">Password</label>
+                    <input type="password" name="pass" id="password">
+                    <label for="cpass" class="cpass">Confirm Password</label>
+                    <input type="password" name="cpass" id="repass">
+                    <div class="flex">
+                        <input type="checkbox" name="box" id="box" class="checkbox">
+                        I accept the Terms of Use & Privacy Policy.
+                    </div>
+                    <button type="submit">Register Now</button>
+                </form>
+            </div>
+
+        </div>
+
+    </main>
+</body>
+
+</html>

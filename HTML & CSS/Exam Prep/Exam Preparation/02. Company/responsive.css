@@ -1,0 +1,56 @@
+@media screen and (width<=600px) {
+    .hero-head{
+        background-image: none;
+        background-color: black;
+        
+    }
+    .main-nav{
+        display: none;
+    }
+    .wrapper{
+        width: 100%;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;   
+    }
+    .wrapper h1{
+        font-size: 2rem;
+    }
+    .hero-head .goal{
+        max-width:unset;
+        font-size: 1rem !important;
+    }
+    section.hero-head::after{
+        display: none;
+        
+    }
+    .bordered{
+        display: flex;
+        flex-direction: column;
+    }
+    .content-wrap{
+        flex-direction: column;
+        margin: 0;
+    }
+    .content-wrap.two-col .col{
+        margin-right: 0;
+    }
+    .button{
+        width:90% ;
+    }
+    .content-wrap-full{
+        padding: 0 40px;
+    }
+    .main-foot .wrapper{
+        flex-direction: column;
+    }
+    .main-foot .bottom .bottom-wrap{
+        float: none;
+    }
+    .main-foot .bottom .copyright{
+        float: none
+    }
+}

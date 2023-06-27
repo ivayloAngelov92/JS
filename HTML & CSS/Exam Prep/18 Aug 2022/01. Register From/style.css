@@ -1,0 +1,108 @@
+@import url(https://fonts.googleapis.com/css2?family=Mulish&display=swap);
+
+* {
+    font-family: 'Mulish';
+    padding: 0 0;
+    margin: 0 0;
+    box-sizing: unset;
+}
+
+main {
+    height: 100vh;
+    background-image: url(images/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    align-items: center;
+    position: relative;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 65vh;
+    width: 45%;
+    background-image: url(images/form-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    align-items: center;
+    border-radius: 30px;
+    
+    display: flex;
+    background-color: rgb(249 249 249);
+
+}
+
+.content {
+
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 50%;
+    height: 500px;
+    margin-left: 4rem;
+    align-content: center;
+    letter-spacing: 1px;
+    color: rgb(68 68 68);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    font-weight: 200;
+    line-height: 2;
+}
+
+
+.content h1 {
+    font-weight: 600;
+    font-size: 28px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    align-self: center;
+}
+
+.fname {
+    padding-right: 120px;
+}
+.lname{
+    padding-right: 100px;
+}
+
+#firstName,
+#lastName {
+    width: 46.5%;
+}
+
+input {
+    border-radius: 50px;
+    height: 2.5rem;
+    border-width: 1px;
+    border-color: rgb(210 210 210);
+
+}
+.flex{
+    vertical-align: middle;
+    line-height: 1.5;
+}
+
+.flex input{
+    margin-right: 10px;
+}
+
+
+button{
+    width: 30%;
+    align-self: center;
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: rgb(174 60 51);
+    color: white;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+#box{
+    padding-top: 20px;
+}

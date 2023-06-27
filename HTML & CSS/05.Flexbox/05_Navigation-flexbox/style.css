@@ -1,0 +1,40 @@
+html{
+    margin: 20px;
+}
+
+body header {
+border-bottom: 2px solid rgb(0, 0, 0);
+display: flex;
+justify-content: space-between;
+}
+ul{
+    display: flex;
+    align-items: end;
+    width: 25%;
+}
+a{
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+    padding: 5px;
+    margin: 5px;
+}
+header h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 40px;
+    width: 75%;
+}
+
+/* 
+• Divide the body into header and main tag
+• The bottom border in the header must have
+o Border width - 2px
+o Border color - rgb(0, 0, 0)
+o Border style - solid
+• The display property of the header must be flex
+• The unordered list in the header must have display property flex
+• The anchors text color in the navigation must be rgb(0, 153, 0)
+*/

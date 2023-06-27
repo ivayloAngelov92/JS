@@ -1,0 +1,75 @@
+.page{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 20px 40px;
+}
+body{
+    background-color:rgb(238, 238, 238) ;
+}
+img{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    padding: 10px;
+}
+blockquote{
+    font-family: Georgia, serif;
+    border-left: 3px solid lightgray;
+    float: right;
+    width:40%;
+    font-style: italic;
+    padding: 0 30px;
+    margin: 0 10px;
+}
+blockquote p{
+    margin: 0;
+}
+.author{
+    margin: 10px;
+    float: right;
+    padding-bottom: 10px;
+}
+aside a{
+    color:rgb(0, 153, 0) ;
+    text-decoration: none;
+}
+.page h1, h2{
+    font-family: Georgia, serif;
+}
+header{ 
+    text-transform: uppercase;
+    border-bottom: 2px solid black;
+    width: 100%;
+}
+main{
+    width: 70%;
+    margin-right: 10px;
+}
+.first-image{
+    float: right;
+    margin-left: 10px;
+}
+.second-image{
+    float: left;
+    margin:0px 10px;
+}
+article p{
+    font-size: 18px;
+
+}
+.author{
+    text-align: end;
+    
+}
+li{
+    margin-bottom: 5px;
+}
+/* 
+• The entire content must be in div container with class page (div.page)
+• The page container (div) must be flexed and wrapped
+• Body background color must be rgb(238, 238, 238)
+• Image background color should be rgb(255, 255, 255)
+• Blockquote font family must be Georgia, serif
+• The anchors text color in the aside section must be rgb(0, 153, 0)
+• Page headings font family must be Georgia, serif
+*/
