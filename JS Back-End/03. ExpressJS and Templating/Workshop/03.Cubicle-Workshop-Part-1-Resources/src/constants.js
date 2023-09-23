@@ -1,5 +1,5 @@
-const constants={
-    PORT:3000
-}
-
-module.exports = constants
+const constants = {
+    PORT: 5050,
+  };
+  
+  module.exports = constants;
