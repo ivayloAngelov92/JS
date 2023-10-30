@@ -1,0 +1,1 @@
+npm create vite {name of folder} -- --template react
